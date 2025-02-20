@@ -7,6 +7,9 @@ body {
 .header {
     text-align: center;
     text-transform: uppercase;
+    padding: 32px;
+    background-color: #0a0a23;
+    color: #fff;
 }
 
 .gallery {
@@ -14,6 +17,11 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
 }
 
 .gallery img {
